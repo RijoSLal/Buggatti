@@ -1,0 +1,260 @@
+*{
+    margin: 0px;
+}
+.main section{
+    display: flex;
+}
+
+p{
+    color: white;
+}
+.toggle{
+    position: fixed;
+    z-index: 1;
+    height: 28px;
+    width: 28px;
+    top: 10px;
+    left: 1210px;
+}
+.first-bar-element{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 970px;
+    margin-top: 12px;
+    margin-left: 70px;
+
+  
+}
+.first-bar{
+    position:fixed;
+    top: 557px;
+    left:113px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 1115px;
+    height: 49px;
+    backdrop-filter: blur(10px); 
+    z-index: 1;
+    
+
+    
+}
+
+video{
+    object-fit: cover;
+}
+.quote{
+    position: absolute;
+    top: 180px;
+    left: 320px;
+    text-align: center;
+    font-stretch: ultra-condensed;
+    
+  
+}
+.Bugatti-tittle img{
+    position: fixed;
+    top: 15px;
+    left: 620px;
+    height: 23.06px;
+    width: 100px;
+    z-index: 1;
+    
+}
+.second-bar{
+    backdrop-filter: blur(10px); 
+    position: fixed;
+    margin-top: 25px;
+    left:0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 1115px;
+    height: 49px;
+    z-index: 1;
+    
+
+}
+
+#arrow{
+    margin-top: -5px;
+    transform: rotate(-90deg);
+    scale: .5;
+    margin-left: 228px;
+    
+}
+.second-bar-element p{
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-right: 40px;
+    font-size: 12.9px;
+    font-stretch: expanded;
+    font-weight: lighter;
+}
+
+.second-bar-element
+{   
+    margin-left:400px;
+    display:flex;
+    align-items: top;
+     margin-top: 1px;
+}
+.heading{
+    font-size: 60px;
+}
+
+.scrollable{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top:250vh;
+ 
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+   
+    
+}
+.cards{
+    margin-right: 92px;
+    margin-top: 50px;
+    transition-duration: .5s;
+    scroll-margin: none;
+
+}
+.cards img{
+    height: 390px;
+    width: 303px;
+    object-fit: cover;
+   
+}
+.cards:hover{
+    transform: scale(1.08);
+    transition-duration: .5s;
+   
+}
+
+.cards video{
+    height: 390px;
+    width: 303px;
+    object-fit: cover;
+   
+}
+.block{
+  
+    text-align: center;
+    position: relative;
+    bottom: 93px;
+}
+.p1{
+    font-size: 31px;
+    font-family: Roboto Condensed;
+   
+
+}
+ 
+.p2{
+    margin-top: 7px;
+    font-size: 20px;
+    font-family: Arial;
+    
+}
+#first-card{
+    margin-left: 113px;
+}
+#last-card{
+   margin-right: 395px;
+}
+.layout-three{
+    background-color: black;
+    height: 660px;
+    overflow: hidden;
+}
+.first-para{
+    margin-top: 110px;
+    text-align: center;
+   line-height: 20px;
+   margin-left: -10px;
+    margin-bottom: 50px;
+    width: 740px;
+    font-family: Courier ;
+    font-size: 14.8px;
+    font-stretch: ultra-expanded;
+}
+.second-para ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -45px;
+    margin-right: 0px;
+    margin-top: 1px;
+   
+    list-style: none;
+    color: white;
+    font-family: Roboto condensed;
+    font-weight: 500;
+    font-size: 20px;
+}
+.third-para ul{
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 12px;
+    list-style: none;
+    color: white;
+    font-family: Courier;
+    font-size: 12px;
+    font-stretch: extra-expanded;
+    
+}
+.heading{
+    font-family: Roboto Condensed;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 60px;
+    
+   
+}
+audio{
+    display: none;
+}
+.vertical{
+   
+    height: 1000px;
+    width:735px;
+    margin-left: 322px;
+}
+
+.third-para{
+    font-size: 15px;
+    margin-top: 50px;
+    font-stretch: expanded;
+    margin-left:19px;
+   
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    
+    margin-top: 45px;
+    margin-left: 255px;
+    
+}
+.unique{
+    transform: scaleY(-1);
+}
+.turn:after{
+    content: 'AUDIO ON';
+    
+ }
+ 
+ .turn:focus:after,
+ .turn:active:after{
+    content: 'AUDIO OFF';
+   
+
+ }
